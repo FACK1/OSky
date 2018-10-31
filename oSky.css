@@ -73,7 +73,7 @@ section{
 
 input[type=text], textarea{
 
-width: 100%;
+width: 90%;
 padding: 12px;
 border: 1px solid #ccc;
 border-radius: 10px;
@@ -84,7 +84,7 @@ resize: vertical;
 }
 
 
-input[type=button]{
+#submitButton{
   background-color:  blue;
   color: white;
   padding: 12px 20px;
@@ -94,10 +94,25 @@ input[type=button]{
 }
 
 
-.container{
+.form-container{
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+	width: 35%;
+	margin-top: 50px;
+	margin-bottom:50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media only screen and (max-width: 600px) {
+    .form-container{
+        width: 100%
+}
+}
+
+#contactHeader {
+	font-size: 20px;
+	font-weight: bold;
 }
 
 /*START USER STORies*/
