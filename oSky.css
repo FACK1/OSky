@@ -1,5 +1,7 @@
 body{
-	margin: 0;
+    margin: 0;
+    padding: 0;
+    background: #c4c4c4;
 }
 nav{
 	overflow: hidden;
@@ -68,7 +70,9 @@ span{
 	font-size: 15pt;
 }
 section{
-	background-image: url(https://www.solidbackgrounds.com/images/2560x1440/2560x1440-sunset-solid-color-background.jpg);
+    background-size:cover;
+    height: -webkit-fill-available;
+    margin: auto;
 }
 
 input[type=text], textarea{
@@ -135,24 +139,33 @@ resize: vertical;
 /*Start MIN container*/
 .container{
     position: relative;
-    width: 1000px;
+    width:90%;
     height: auto;
-    margin: 150px auto 0;
+    margin: 40px auto 0;
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 400px;
+    grid-gap: 40px;
+    
+}
+@media screen and (min-width:700px){
+    .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-auto-rows: 440px;
-	grid-gap: 40px;
+    grid-auto-rows: 400px;
+    grid-gap: 40px;
+    }
 }
-
 
 /*Start MIN card */
 .container .card{
-    position: relative;
+    position: inherit;
     background: gray;
     overflow: hidden;
     border-radius: 10px;
     transition: 0.5s;
 }
+
 
 /* card hover */
 .container .card:hover{
@@ -185,8 +198,8 @@ opacity: 0.5;
     width: 100%;
     height: 60%;
     bottom: -100%;
-    padding: 20px;
-    padding-top: 60px;      /*padding btween top and text */
+    padding: 0;
+    padding-top: 10px;      /*padding btween top and text */
     box-sizing: border-box;
     text-align: center;
     transition: 0.5s;
@@ -254,6 +267,8 @@ opacity: 0.5;
     font-size: 22px;
     transition: 0.5s;
 }
+
+
 /*##################
 ##  END TEAM PRO  ##
 ##################*/
