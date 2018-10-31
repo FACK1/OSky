@@ -115,6 +115,19 @@ resize: vertical;
 	font-weight: bold;
 }
 
+/*START USER STORies*/
+.paragraph-about{
+	width: 100%;
+	high: auto;
+	text-align: center;
+	color: blue;
+	font-size: 34px;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	margin-bottom: 0;
+}
+/*END USER STORies*/
+
 /*##################
 ## START TEAM PRO ##
 ##################*/
