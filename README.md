@@ -20,5 +20,4 @@ Moutaz Mohtasb
 Sama Amro
 
 OSky Website Link:
-https://fack1.github.io/OSky/oSky
-
+https://fack1.github.io/OSky/
