@@ -12,3 +12,9 @@ The end bar containing copyright and links to some of the policies used in our c
 
 How ?
 We started to meet and then we planned and determined the requirements for this site and we divided the page into several sections and distributed to the team.
+
+Team Members:
+Hadeel Slamin
+Fidaa Hersh
+Moutaz Mohtasb
+Sama Amro
